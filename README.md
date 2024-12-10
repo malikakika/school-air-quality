@@ -28,7 +28,7 @@ This project uses an **ESP32 microcontroller**, an **SCD30 sensor**, and **Fireb
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-repo-name>.git
+   git clone https://github.com/malikakika/school-air-quality.git
 2. Open the project in Arduino IDE.
 
 3. Install the required libraries from the Arduino Library Manager:
@@ -36,6 +36,7 @@ This project uses an **ESP32 microcontroller**, an **SCD30 sensor**, and **Fireb
 Firebase ESP Client
 Adafruit SCD30
 4.Configure the following details in the code:
+
 #define WIFI_SSID "your_wifi_ssid"
 #define WIFI_PASSWORD "your_wifi_password"
 #define API_KEY "your_firebase_api_key"
